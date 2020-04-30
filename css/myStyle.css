@@ -1,0 +1,757 @@
+@font-face {
+    font-family: 'IRAN Sans';
+    src:  url('../fonts/IRAN Sans.woff') format('woff') ;
+}
+body {
+    font-family: 'IRAN Sans';
+}
+
+.bgrooms {
+    background: #c6c6c6;
+    padding: 8px;
+}
+
+.aBook {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 53px;
+    padding-left: 46px;
+    padding-right: 46px;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.room_image img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe.cboxIframe {
+    border: none;
+    width: 100%;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+a.dropdown-item {
+    color: #4A148C;
+}
+
+.txf {
+    color: black !important;
+}
+
+.w49 {
+
+}
+
+.menus {
+
+}
+
+.menusd {
+    padding: 0px 6px;
+}
+
+.txf {
+    display: inline;
+}
+
+.repeatable {
+    margin-bottom: 1rem;
+    border: 2px solid #E1E1E1;
+    padding: 1rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    background: #ddd;
+
+}
+
+.repeatableChild {
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
+
+/*----------------------------------*/
+
+.repeater {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #C0C0C0;
+    margin-bottom: 1rem;
+    color: black !important;
+}
+
+.repeatable {
+    margin-bottom: 1rem;
+    border: 2px solid #E1E1E1;
+    padding: 1rem;
+    background-color: #F7F7F7;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.remove {
+    display: block;
+    float: right;
+}
+
+.half-holder {
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
+
+.add_btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* CLEARFIX */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.modal-content {
+    color: black !important;
+}
+
+span.smalltxt {
+    color: black;
+    font-size: xx-small;
+}
+
+.roomNum {
+    font-size: xx-small;
+    color: black;
+}
+
+.modal-body {
+    color: #000 !important;
+}
+
+.search_item .div_room {
+    color: #000 !important;
+}
+
+.div_rooms_host {
+    width: 100%;
+}
+
+.Remove {
+    color: red;
+    font-size: 19px;
+}
+
+.div_room {
+    width: 100%;
+    display: flex;
+    background: #eee;
+    padding: 2px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 2px 0px;
+}
+
+.div_room div {
+    padding: 3px;
+}
+
+.div_input {
+    width: 48px;
+}
+.div_remove {
+    width: 20px;
+}
+.div_adult {
+    border: 2px solid #ffffff;
+    border-radius: 9px;
+}
+
+input.div_input_adult {
+    width: 100%;
+    border: 1px solid #868e96;
+    border-radius: 2px;
+    padding: 0px 5px;
+    margin: 2px;
+}
+
+input.div_child_Input {
+    background-color: #8d4fff;
+    color: white;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    display: block;
+}
+
+.div_child_host {
+    width: fit-content;
+}
+
+.child_value {
+    width: 50px;
+    margin: 1px;
+    border-radius: 3px;
+    border: 1px solid #868e96;
+}
+
+.div_child {
+    display: flex;
+}
+
+.rooms {
+    display: block;
+    padding: 2px;
+    background-color: #eee;
+    margin: 2px 0px;
+    border-radius: 7px;
+    border: 1px solid #ddd;
+}
+
+.RoomReV {
+    background: #f5f5f5;
+    margin: 3px 0px;
+    padding: 5px;
+    width: 100%;
+    display: block;
+    float: right;
+}
+
+.imageHotelRewive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.HotelImage {
+    width: 200px;
+    height: 200px;
+}
+
+.HotelImage img {
+    width: 100%;
+    height: 100%;
+}
+
+#Hotel {
+    margin: 5px 0px;
+}
+
+.HotelS {
+    margin: 8px 0px;
+}
+
+.HotelS {
+    margin: 8px 0px;
+    padding: 5px;
+    box-shadow: 0px 7px 2px 2px #eee;
+    border-radius: 5px;
+}
+
+input.btnBook {
+    background: #FF5722;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/*--------------- For Ajax Serach --------------------------*/
+#search {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    font: 16px Vazir;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    z-index: 1;
+}
+
+div.result {
+    width: 100%;
+    height: auto;
+    background: white;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+    margin-top: 5px;
+    z-index: 10;
+    position: absolute;
+}
+
+div.result ul li {
+    list-style: none;
+    width: 100%;
+    height: 60px;
+    font: 16px Vazir;
+    color: #7b7b7b;
+    box-sizing: border-box;
+    line-height: 50px;
+    padding: 0 10px;
+    border-bottom: 1px solid #e5e5e5;
+    cursor: pointer;
+}
+
+div.result ul li:hover {
+    color: #000;
+    background: #e5e5e5;
+}
+
+.logo-area img {
+    height: 42px;
+}
+
+.HotelImage img {
+    border-radius: 6px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    color: #f26922;
+    background-color: white;
+}
+
+.icon-menu {
+    width: 75px;
+}
+
+.search {
+    min-height: 150px;
+    margin-top: 50px;
+}
+
+.box_servis {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.box_servis .subject {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tabmenu {
+    margin: 20px 0 0 0;
+}
+
+.tabmenu i {
+    font-size: 18px;
+    margin-right: 3px;
+    position: relative;
+    top: 2px;
+    color: #FF5722;
+}
+
+.tab-content {
+    padding: 5px;
+    background: white;
+}
+
+.tabhd {
+    background: white;
+}
+
+.boxly {
+    background: #EEEEEE;
+}
+
+.strong.price-box {
+    font-size: 19px;
+    color: #ff5722;
+}
+
+.price-box span {
+    color: #0c0c0c;
+    font-size: 12px;
+}
+
+.Board {
+    color: #ff5722d4;
+    border: 1px solid #ff57226b;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+/*--------Tarahsite --------*/
+.header-top-menu {
+    text-align: left;
+    padding: 12px 0px;
+}
+
+img.imgboxserv {
+    margin-bottom: 26px;
+}
+
+form#search_form {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.dateStyle {
+    font-size: 14px;
+}
+
+.inbox-st-nav.inbox-ft {
+    font-size: 14px;
+}
+
+.form-room {
+    background: #ededed96;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.btnIcon i {
+    font-size: 24px;
+    color: #f26922;
+}
+
+.iconBoxSearch svg {
+    fill: #f26922;
+}
+
+.iconBoxSearch {
+    fill: #f26922;
+    width: 22px;
+    height: 22px;
+    margin: 3px;
+}
+
+.input-group-prepend i {
+    margin: 3px;
+    font-size: 21px;
+}
+
+.nav .nav-item {
+    padding: 8px;
+    text-align: center;
+}
+
+.main-navigation__icon {
+    width: 20px;
+    height: 20px;
+    color: cadetblue;
+}
+
+.pad-topmenu {
+    padding: 15px 0;
+}
+
+.linkMenu {
+    color: #414141;
+    font-size: 20px;
+    padding: 1px 10px;
+}
+
+.linkMenu:hover {
+    color: #f26922;
+}
+
+.btn-narengi {
+    background-color: #f26922;
+    color: white;
+}
+
+.btn-user {
+    border: solid rgba(242, 105, 34, 0.35);
+    border-radius: 15px;
+}
+
+.btn:focus {
+    border: white;
+}
+
+.btn-narengi a {
+    color: white;
+}
+.btn-font15px {
+    font-size: 15px;
+}
+.redStar {
+    color: red;
+    padding: 5px;
+}
+.lowEffect {
+    color: red;
+}
+.addEffect {
+    color: #28a745;
+}
+.voucher {
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 6px;
+}
+.conbaox {
+    text-align: center;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff5722;
+}
+.dropdown-item.active, .dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff5722;
+    transition: all 0.5s;
+}
+.conbaox a {
+    color: #343a40;
+}
+.boxSeting {
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #eee;
+}
+.boxSeting .nav .nav-item {
+    padding-top: 8px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.boxSetingCon {
+    padding: 6px;
+}
+
+.inerbox {
+    width: 100%;
+    display: block;
+}
+.boxParvaz {
+    position: relative;
+    width: 100%;
+    display: block;
+    border: 1px solid #eeec;
+    border-radius: 5px;
+    background: white;
+    padding: 15px;
+    box-shadow: 0 -1px 1px 0 rgba(0,0,0,.05), 0 1px 5px 0 rgba(0,0,0,.15);
+}
+.available-columns__type {
+    position: absolute;
+    top: 30px;
+    left: 100%;
+    margin-left: -9px;
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    vertical-align: top;
+    background: transparent;
+    border: solid hsla(0,0%,82.4%,.6);
+    border-width: 1px 1px 0;
+    color: #aaa;
+    width: 70px;
+    height: 18px;
+    transform: translateX(-50%) translateY(50%) rotate(-90deg);
+    font-size: 10px;
+    text-align: center;
+    line-height: 16px;
+}
+.boxifo{
+    border: 1px solid #eee;
+    background-color: white;
+    border-radius: 5px;
+}
+.replay {
+    width: 100%;
+    display: block;
+    background: white;
+    border: 1px #adb5bd7a solid;
+    border-radius: 5px;
+    padding: 7px;
+    border-top-left-radius: 0px;
+}
+.userInfo {
+    width: 100%;
+    display: block;
+    background: #eee;
+    padding: 6px;
+    border: 1px solid #adb5bd;
+    border-radius: 6px;
+}
+.navbar-laravel {
+    background-color: white;
+}
+.dirleft {
+    direction: ltr;
+}
+
+.ways {
+    display: flex;
+}
+.logoairlinebox {
+    width: 58px;
+    height: 58px;
+}
+.logoairlinebox .logoairline{
+    max-width: 100%;
+}
+
+.available-columns__info {
+    display: flex;
+    align-items: center;
+}
+.info_chair_date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.available-columns__price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adult_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-fly {
+    color: #fff;
+    background-color: #ff5722;
+    border-color: #ff5722;
+}
+.btn-fly:hover{
+    color: #fff;
+    background-color: #9c3b15;
+    border-color: #ff5722;
+}
+
+.fly_link {
+    color: white;
+}
+.fly_link:hover {
+    color: white;
+}
+.dataDay {
+    font-size: 12px;
+}
+.planway .origin {
+    display: inline-block;
+    float: right;
+}
+.planway {
+    text-align: center ;
+    padding: 13px 0px;
+}
+.planway .destination {
+    display: inline-block;
+    float: left;
+}
+
+.planway .fa-plane {
+    margin: 0 auto;
+    font-size: 27px;
+}
+.planway .plane {
+    margin: 0 auto;
+    display: inline-block;
+}
+.dayChair {
+    font-size: 15px;
+    padding: 5px 0px;
+}
+.byBtn {
+    text-align: center;
+    padding: 9px 0px;
+}
+.classFly {
+    display: inline-block;
+    background-color: #eee;
+    padding: 3px;
+    font-size: 12px;
+    border: 1px solid #e1dfdf;
+    border-radius: 5px;
+}
+.low_datelse {
+    text-align: center;
+}
+.low_datelse .btn {
+    font-size: 11px;
+    text-align: center;
+}
+.tableBox {
+    width: 100%;
+    display: block;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 0;
+}
+.rowBox {
+    display: block;
+    width: 100%;
+}
+.rowBox .clum1 {
+    display: inline-block;
+    width: 240px;
+    background-color: #f9fafe;
+    padding: 6px 6px 6px 0px;
+}
+.rowBox .clum2 {
+    display: inline-block;
+    padding: 6px 6px 6px 0px;
+}
+.tire {
+    background-color:#f5f5f5;
+}
+.tire .clum1 {
+    background-color: #f2f2f2;
+}
+
+.top-15px {
+    margin-top: 20px;
+}
+thead.thead-arzan_ui {
+    border-top-right-radius: 6px;
+    background-color: #e1e1e1;
+    text-align: center;
+}
+.table .thead-arzan_ui th {
+    border-top: 0px solid #dee2e6;
+}
+.radius_tr6 {
+    border-top-right-radius : 6px ;
+}
+.radius_tl6 {
+    border-top-left-radius : 6px ;
+}
+tbody.tbody-arzan_ui {
+    text-align: center;
+}
+@media ( max-width: 810px ) {
+    .hidden_in_mobile{
+        display: none;
+    }
+    .rowBox .clum1 {
+        display: inline;
+    }
+}
+@media ( min-width: 810px ) {
+    .hidden_in_descktop {
+        display: none;
+    }
+}
